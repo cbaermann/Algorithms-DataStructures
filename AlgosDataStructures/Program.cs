@@ -6,7 +6,8 @@ namespace AlgosDataStructures
     {
         static void Main(string[] args)
         {
-            JaggedArraysDemo();
+            // JaggedArraysDemo();
+            MultiDemArrays();
             // ArraysDemo();
             // TestBasedArray();
             Console.Read();
