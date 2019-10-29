@@ -6,9 +6,57 @@ namespace AlgosDataStructures
     {
         static void Main(string[] args)
         {
+            JaggedArraysDemo();
             // ArraysDemo();
-            TestBasedArray();
+            // TestBasedArray();
             Console.Read();
+        }
+
+        private static void MultiDemArrays()
+        {
+            int[,] r1 = new int[2,3] {{1,2,3}, {4,5,6}};
+            int[,] r2 = {{1,2,3}, {4,5,6}};
+
+            for(int i = 0; i < r2.GetLength(0); i++)
+            {
+                for(int j = 0; j < r2.GetLength(1); j++)
+                {
+                    System.Console.WriteLine($"{r2[i,j]}");
+                }
+                System.Console.WriteLine();
+            }
+        }
+
+        private static void JaggedArraysDemo()
+        {
+            int[][] jaggedArray = new int[4][];
+            jaggedArray[0] = new int[1];
+            jaggedArray[1] = new int[3];
+            jaggedArray[2] = new int[2];
+            jaggedArray[3] = new int[4];
+            System.Console.WriteLine("Enter the numbers for a jagged array.");
+
+            for(int i = 0; i < jaggedArray.Length; i++)
+            {
+                for(int j = 0; j < jaggedArray[i].Length; i++)
+                {
+                    string st = Console.ReadLine();
+                    jaggedArray[i][j] = int.Parse(st);
+                }
+            }
+            System.Console.WriteLine("");
+            System.Console.WriteLine("Printing the Elements:");
+            
+            for(int i = 0; i < jaggedArray.Length; i++)
+            {
+                for(int j = 0; j < jaggedArray[i].Length; i++)
+                {
+                    System.Console.WriteLine(jaggedArray[i][j]);
+                    System.Console.Write("\0");
+                }
+                System.Console.WriteLine("");
+            }
+
         }
         private static void ArraysDemo()
         {
