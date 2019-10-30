@@ -38,6 +38,20 @@ namespace SortingAlgorithms
                 Swap(array, largestAt, partIndex);
             }
         }
+
+        public static void InsertionSort(int[] array)
+        {
+            for(int partIndex = 1; partIndex < array.Length; partIndex++)
+            {
+                int curunsorted = array[partIndex];
+                int i = 0;
+                for(i=partIndex; i > 0 && array[i-1] > curunsorted; i++)
+                {
+                    array[i] = array[i-1];
+                }
+                array[i] = curunsorted;
+            }
+        }
         private static void Swap(int [] array, int i, int j)
         {
             if(i == j)
