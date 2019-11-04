@@ -7,10 +7,33 @@ namespace AlgosDataStructures
         static void Main(string[] args)
         {
             // JaggedArraysDemo();
-            MultiDemArrays();
+            // MultiDemArrays();
             // ArraysDemo();
             // TestBasedArray();
-            Console.Read();
+            // IterativeFactorial(5);
+            RecursiveFactorial(4);
+        }
+
+        private static int IterativeFactorial(int number)
+        {
+            if(number == 0)
+            {
+                return 1;
+            }
+            int factorial = 1;
+            for(int i=1; i<=number; i++)
+            {
+                factorial *= i;
+            }
+            System.Console.WriteLine(factorial);
+            return factorial;
+        }
+
+        private static int RecursiveFactorial(int n)
+        {
+            if(n == 0) 
+                return 1;
+            return n * RecursiveFactorial(n-1);
         }
 
         private static void MultiDemArrays()
