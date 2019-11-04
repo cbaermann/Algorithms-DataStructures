@@ -1,0 +1,11 @@
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/bin/Debug/netcoreapp2.2/Lists.deps.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/bin/Debug/netcoreapp2.2/Lists.runtimeconfig.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/bin/Debug/netcoreapp2.2/Lists.runtimeconfig.dev.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/bin/Debug/netcoreapp2.2/Lists.dll
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/bin/Debug/netcoreapp2.2/Lists.pdb
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/obj/Debug/netcoreapp2.2/Lists.csprojAssemblyReference.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/obj/Debug/netcoreapp2.2/Lists.csproj.CoreCompileInputs.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/obj/Debug/netcoreapp2.2/Lists.AssemblyInfoInputs.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/obj/Debug/netcoreapp2.2/Lists.AssemblyInfo.cs
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/obj/Debug/netcoreapp2.2/Lists.dll
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Lists/obj/Debug/netcoreapp2.2/Lists.pdb
