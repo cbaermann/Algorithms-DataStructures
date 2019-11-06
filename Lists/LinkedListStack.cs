@@ -5,7 +5,7 @@ namespace Lists
 {
     public class LinkedStack<T>
     {
-        private readonly SinglyLinkedList<T> list = new SinglyLinkedList<T>
+        private readonly SinglyLinkedList<T> list = new SinglyLinkedList<T>();
         public T Peek()
         {
             if(IsEmpty)
