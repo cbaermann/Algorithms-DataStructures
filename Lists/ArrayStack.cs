@@ -46,5 +46,13 @@ namespace Lists
 
         public bool IsEmpty => Count == 0;
         public int Count{get; private set;}
+
+        public IEnumerable<T> GetEnumerator()
+        {
+            for(int i = Count -1; i >=0; i--)
+            {
+                yield return _items[i];
+            }
+        }
     }
 }
