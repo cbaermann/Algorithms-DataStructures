@@ -1,0 +1,11 @@
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/bin/Debug/netcoreapp2.2/HashTables.deps.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/bin/Debug/netcoreapp2.2/HashTables.runtimeconfig.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/bin/Debug/netcoreapp2.2/HashTables.runtimeconfig.dev.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/bin/Debug/netcoreapp2.2/HashTables.dll
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/bin/Debug/netcoreapp2.2/HashTables.pdb
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/obj/Debug/netcoreapp2.2/HashTables.csprojAssemblyReference.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/obj/Debug/netcoreapp2.2/HashTables.csproj.CoreCompileInputs.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/obj/Debug/netcoreapp2.2/HashTables.AssemblyInfoInputs.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/obj/Debug/netcoreapp2.2/HashTables.AssemblyInfo.cs
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/obj/Debug/netcoreapp2.2/HashTables.dll
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/HashTables/obj/Debug/netcoreapp2.2/HashTables.pdb
