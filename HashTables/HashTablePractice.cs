@@ -5,9 +5,16 @@ namespace HashTables
 {
     public class PhoneNumber
     {
-        public string AreaCode{get;set;}
-        public string Exchange{get;set;}
-        public string Number{get;set;}
+        public string AreaCode{get;}
+        public string Exchange{get;}
+        public string Number{get;}
+
+        public PhoneNumber(string areaCode, string exchange, string number)
+        {
+            AreaCode = areaCode;
+            Exchange = exchange;
+            Number = number;
+        }
 
         public override bool Equals(object obj)
         {
