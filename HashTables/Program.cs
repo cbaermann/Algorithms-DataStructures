@@ -7,8 +7,8 @@ namespace HashTables
     {
         static void Main(string[] args)
         {
-            var number1 = new PhoneNumber(){areaCode = "141804", exchange="27", number = "90319334"};
-            var number2 = new PhoneNumber(){areaCode = "141804", exchange="27", number = "90319334"};
+            var number1 = new PhoneNumber(areaCode = "141804", exchange="27", number = "90319334");
+            var number2 = new PhoneNumber(areaCode = "141804", exchange="27", number = "90319334");
 
 
             System.Console.WriteLine(number1.GetHashCode());
