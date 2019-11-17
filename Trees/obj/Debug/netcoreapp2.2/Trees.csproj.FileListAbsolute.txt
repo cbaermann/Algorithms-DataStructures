@@ -1,0 +1,11 @@
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/bin/Debug/netcoreapp2.2/Trees.deps.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/bin/Debug/netcoreapp2.2/Trees.runtimeconfig.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/bin/Debug/netcoreapp2.2/Trees.runtimeconfig.dev.json
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/bin/Debug/netcoreapp2.2/Trees.dll
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/bin/Debug/netcoreapp2.2/Trees.pdb
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/obj/Debug/netcoreapp2.2/Trees.csprojAssemblyReference.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/obj/Debug/netcoreapp2.2/Trees.csproj.CoreCompileInputs.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/obj/Debug/netcoreapp2.2/Trees.AssemblyInfoInputs.cache
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/obj/Debug/netcoreapp2.2/Trees.AssemblyInfo.cs
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/obj/Debug/netcoreapp2.2/Trees.dll
+/Users/codybaermann/Documents/CodingDojo/C#Review/AlgosDataStructures/Trees/obj/Debug/netcoreapp2.2/Trees.pdb
