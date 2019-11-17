@@ -5,9 +5,9 @@ namespace Trees
 {
     public class TreeNode<T> where T: IComparable<T>
     {
-        public T Value{get; private set;}
-        public TreeNode<T> Left{get; private set;}
-        public TreeNode<T> Right{get; private set;}
+        public T Value{get; set;}
+        public TreeNode<T> Left{get;  set;}
+        public TreeNode<T> Right{get; set;}
 
         public TreeNode(T value)
         {
@@ -96,6 +96,41 @@ namespace Trees
     public class Bst<T> where T: IComparable<T>
     {
         private TreeNode<T> root;
+        public void Remove(T value)
+        {
+            root = Remove(root, value);
+        }
+        public void Remove(TreeNode<T> subtreeRoot, T value)
+        {
+            if(subtreeRoot==null)
+                return null;
+            int compareTo = value.CompareTo(subtreeRoot.Value);
+            if(compareTo<0)
+            {
+                subtreeRoot.Left = Remove(subtreeRoot.Left, value);
+            }
+            else if( compareTo > 0)
+            {
+                subtreeRoot.Left = Remove(subtreeRoot.Right, value);
+            }
+            else
+            {
+                if(subtreeRoot.Left == null)
+                {
+                    return subtreeRoot.Right;
+                }
+                if(subtreeRoot.Right==null)
+                {
+                    return subtreeRoot.Left;
+                }
+
+                subtreeRoot.Value = subtreeRoot.Right.Min();
+                subtreeRoot.Right = Remove(subtreeRoot.Right, subtreeRoot.Value);
+            }
+            return subtreeRoot;
+        }
+    
+    
 
         public TreeNode<T> Get(T value)
         {
